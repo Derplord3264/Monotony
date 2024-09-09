@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+}
+
+#messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#messageInput {
+    flex: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#sendMessage {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#gameArea {
+    flex: 3;
+    padding: 20px;
+}
+
+#roomDescription {
+    margin-bottom: 20px;
+}
+
+#actions {
+    display: flex;
+    flex-direction: column;
+}
